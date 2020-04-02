@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity{
                 ContentValues values=new ContentValues();
                 values.put("name","A Storm of Swords");
                 values.put("pages",1216);
-                values.put("price",24.05);
+                values.put("price",12.55);
                 getContentResolver().update(uri,values,null,null);
             }
         });
